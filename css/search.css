@@ -1,0 +1,53 @@
+.body-r-nav-l{
+	display: inline-block;
+}
+.body-r-nav-r{
+    float: right;
+    width: 300px;
+}
+.search{
+	margin: 25px 0 0;
+	width: 90%;
+	float: left;
+}
+.search .input-group{
+	width: 100%;
+}
+.search .input-group .form-control{
+	width: 80%;
+}
+.input-group input,.input-group button{
+	float: left;
+}
+.input-group button{
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+.video-box{
+	/*height: 670px;*/
+	/*height: 590px;*/
+	width: 100%;
+	padding: 30px;
+	position: absolute;
+}
+.video-box:first-child{
+	display: block;
+}
+.video-box:last-child{
+	display: none;
+}
+.video-box tr th,.video-box tr td{
+	width: 100px;
+	text-align: center;
+}
+.video-box tr th:first-child{
+	width: 653px;
+	text-align: left;
+}
+.video-box tr td:first-child{
+	text-align: left;
+}
+.video-box a{
+	cursor: pointer;
+}
+

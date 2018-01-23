@@ -1,0 +1,35 @@
+.body-right{
+	border-left: 7px solid #1aa094;
+	padding:0;
+}
+.body-r-box{
+	background-color: rgba(44, 52, 60,1);
+	border-radius: 0;
+	overflow: auto;
+}
+.chart{
+	text-align: center;
+}
+#chart1{
+	/*float: left;*/
+}
+#chart2{
+	/*float: left;*/
+	margin: 20px 0;
+}
+.chart1,.chart2,.chart3{
+	/*width: 700px;*/ 
+	height: 600px;
+	display: inline-block;
+}
+@media (min-width: 1400px){
+	.max {
+	    width: 50%;
+	    float: left;
+	}
+}
+@media (max-width: 1399px) {
+	.mix {
+		width: 700px;
+	}
+}

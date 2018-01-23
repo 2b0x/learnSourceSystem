@@ -1,0 +1,62 @@
+.video-box{
+	/*height: 670px;*/
+	/*height: 590px;*/
+	width: 100%;
+	padding: 30px;
+}
+.video-box:first-child{
+	display: block;
+}
+.video-box tr th,.video-box tr td{
+	width: 100px;
+	text-align: center;
+}
+.video-box tr th:first-child{
+	width: 607px;
+	text-align: left;
+}
+.video-box:first-child tr th:first-child{
+	width: 653px;
+	text-align: left;
+}
+.video-box tr td:first-child{
+	text-align: left;
+}
+.video-box a{
+	cursor: pointer;
+}
+.publish-btn button{
+    margin: 0 30px 25px 0;
+    width: 80px;
+}
+.publish-box{
+	width: 723px;
+	height: 576px;
+	display: none;
+	background: rgba(255,255,255,1);
+	z-index: 98;
+    position: absolute;
+    margin-left: 50%;
+    left: -303px;
+    top: 200px;
+    border-radius: 10px;
+}
+.publish-content{
+	margin: 50px;
+}
+.publish-title{
+	margin-bottom: 25px;
+}
+.publish-content p span{
+    font-size: 20px;
+    cursor: default;
+}
+.publish-content form button{
+	margin: 10px 20px 0 0;
+}
+
+#editor p{
+	display: none;
+}
+
+input,button,select,textarea{outline:none}

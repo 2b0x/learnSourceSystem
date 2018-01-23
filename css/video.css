@@ -1,0 +1,46 @@
+.video-box{
+	/*height: 670px;*/
+	/*height: 590px;*/
+	width: 100%;
+	padding: 30px;
+	/*position: absolute;*/
+}
+.video-box td span{
+	top: 2px;
+	margin: 0 10px 0 5px;
+}
+.video-box tr th,.video-box tr td{
+	width: 100px;
+	text-align: center;
+}
+.video-box tr th:first-child{
+	width: 450px;
+	text-align: left;
+}
+/*.video-box:last-child tr th:first-child{
+	width: 634px;
+	text-align: left;
+}*/
+.video-box tr th:first-child,.video-box tr td:first-child{
+	text-align: left;
+}
+.video-box a{
+	cursor: pointer;
+}
+.upload button{
+    margin:0 30px 25px 0;
+    width: 80px;
+}
+.fileInput{
+    margin: 20px 0 15px;
+}
+
+.upload-content .p-title .form-control:nth-child(1){
+    display: inline-block;
+    width: 70%;
+}
+.upload-content .p-title .form-control:nth-child(2){
+    display: inline-block;
+    width: 27%;
+    float: right;
+}

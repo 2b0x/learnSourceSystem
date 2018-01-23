@@ -1,0 +1,24 @@
+.video-box{
+	/*height: 670px;*/
+	/*height: 590px;*/
+	width: 100%;
+	padding: 30px;
+	position: absolute;
+}
+.video-box tr th,.video-box tr td{
+	width: 100px;
+	text-align: center;
+}
+.video-box tr th:first-child{
+	width: 547px;
+	text-align: left;
+}
+.video-box tr td:first-child{
+	text-align: left;
+}
+.video-box a{
+	cursor: pointer;
+}
+.upload button{
+    width: 80px;
+}

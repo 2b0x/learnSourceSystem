@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>js</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/box.css"/>
+	</head>
+	
+	
+	
+	<body>
+		<!--顶部标题栏开始-->
+		<div class="head center-block">
+			<div class="head-nav">
+				<div class=" head-left">
+					<span>课件资源管理系统</span>
+				</div>
+				<div class=" head-right">
+					
+					<div class="status">
+						<a id="user"><p><span class="glyphicon glyphicon-user"></span>当前用户</p></a>
+						<a id="login"><p><span class="glyphicon glyphicon-off"></span>退出登录</p></a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--顶部标题栏结束-->
+		
+<div class="clearfix"></div>
+		
+		<!--主体内容开始-->
+		<div class="body center-block">
+			<div class="body-left">
+				<ul>
+					<li><a href="Video.html"><span class="glyphicon glyphicon-facetime-video"></span>视频资源</a></li>
+					<li><a href="CourseWare.html"><span class="glyphicon glyphicon-folder-open"></span>课件资源</a></li>
+					<li><a href="Test.html"><span class="glyphicon  glyphicon-duplicate"></span>试题库</a></li>
+					<li><a href="TeachingCase.html"><span class="glyphicon  glyphicon-floppy-disk"></span>教学案例</a></li>
+					<li><a href="Scientific.html"><span class="glyphicon  glyphicon-list-alt"></span>科研成果</a></li>
+					<li><a href="Community.html"><span class="glyphicon  glyphicon-home"></span>学习社区</a></li>
+					<li><a href="Search.html"><span class="glyphicon  glyphicon-zoom-in"></span>信息查询</a></li>
+					<li class="li-active"><a href="TeacherLearn.html"><span class="glyphicon  glyphicon-user"></span>教师学习</a></li>
+					<li><a href="UserManage.html"><span class="glyphicon  glyphicon-cog"></span>用户管理</a></li>
+				</ul>
+			</div>
+			<div class="body-right">
+				<div class="body-r-box">
+					<div class="body-r-nav">
+						<ul>
+							<li class="body-r-nav-active"><a>教师资源共享</a></li>
+							<li><a>我的资源共享</a></li>
+						</ul>
+						<div class="body-r-nav-r">
+							<div class="search">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+									<!--<span class="input-group-addon glyphicon glyphicon-search" id="basic-addon2"></span>-->
+									<button type="button" class="btn btn-default" aria-label="Left Align">
+									  <span class="glyphicon glyphicon-search"></span>
+									</button>
+									<!--<span class="glyphicon glyphicon-search"></span>-->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-r-body">
+						<div class="page">
+							<nav>
+							  <ul class="pagination">
+							    <li>
+							      <a href="#" aria-label="Previous">
+							        <span>&laquo;</span>
+							      </a>
+							    </li>
+							    <li class="active"><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li><a href="#">5</a></li>
+							    <li>
+							      <a href="#" aria-label="Next">
+							        <span>&raquo;</span>
+							      </a>
+							    </li>
+							  </ul>
+							</nav>
+						</div>
+						
+						<div class="video-box" id="video-box-one" >
+							<table class="table table-hover">
+							  <tr>
+							  	<th>文件名</th>
+							  	<th>上传时间</th>
+							  	<th>下载</th>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  </tr>
+							</table>
+							
+						</div>
+						<div class="video-box" id="video-box-two" >
+							<div class="upload">
+								<button type="button" class="btn btn-success" id="upload-btn">上传</button>
+								<button type="button" class="btn btn-info">刷新</button>
+							</div>
+							<table class="table table-hover">
+							  <tr>
+							  	<th>文件名</th>
+							  	<th>上传时间</th>
+							  	<th>下载</th>
+							  	<th>删除</th>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  <tr>
+							  	<td>文件一</td>
+							  	<td>2017-10-02</td>
+							  	<td><a>下载</a></td>
+							  	<td><a>删除</a></td>
+							  </tr>
+							  
+							</table>
+						</div>
+							
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--主体内容结束-->
+		
+		<!--底部页脚开始-->
+		<div class="footer"></div>
+		<!--底部页脚结束-->
+		
+		<!--用户信息开始-->
+		<div class="mask" id="mask">
+				<div class="mask-box" id="mask-box">
+					<div class="content">
+						<form action="" method="post">
+							<p><span>帐号类型：</span><span> 学生帐号</span></p>
+							<p><span>用户名： </span><span> 123</span></p>
+							<p><span>修改密码</span></p>
+							<p><input type="text" class="form-control" id="exampleInputEmail1" placeholder="设置新密码"></p>
+							<p><input type="text" class="form-control" id="exampleInputEmail1" placeholder="确认新密码"></p>
+							<p><button type="submit" class="btn btn-info">确认提交</button><button type="button" id="exit" class="btn btn-danger">退出</button></p>
+							
+						</form>
+						
+					</div>
+				</div>
+		</div>
+		<!--用户信息结束-->
+		
+		<!--上传资源开始-->
+		<div class="upload-box" id="upload-box">
+			<div class="upload-content">
+				<p class="upload-title"><span class="label label-success">上传新资源</span></p>
+				<form action="" method="post">
+					<p><input type="text" class="form-control" placeholder="请输入资源名"></p>
+					<input type="file" id="InputFile">
+					<p><button type="submit" class="btn btn-info">确认上传</button><button type="button" id="upload-exit" class="btn btn-danger">退出</button></p>
+				</form>
+			</div>
+		</div>
+		<!--上传资源结束-->
+		
+		
+		<!--登录框开始-->
+					<div class="login-box" id="login-box">
+						<div class="login">
+							<form action="" method="post">
+								<p><span>用户登录</span></p>
+								
+								<p><input type="text" class="form-control" id="exampleInputEmail1" placeholder="请输入用户名"></p>
+								<p><input type="text" class="form-control" id="exampleInputEmail1" placeholder="请输入密码"></p>
+								<p><button type="submit" class="btn btn-info">确认提交</button><button type="button" id="login-exit" class="btn btn-danger">退出</button></p>
+							</form>
+						</div>
+					</div>
+		<!--登录框结束-->
+	</body>
+	
+	<script src="js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/upload.js" type="text/javascript" charset="utf-8"></script>
+</html>
